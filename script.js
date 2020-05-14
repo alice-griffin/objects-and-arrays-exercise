@@ -30,9 +30,9 @@ for (let i = 1; i > 0; i++) {
         if (charSelect === 1) {
           (characters[0].health -= 5), (opponent.health -= 5)
         } else if (charSelect === 3) {
-            (characters[1].health -= 5) && (opponent.health -= 5)
+            (characters[1].health -= 5), (opponent.health -= 5)
         } else if (charSelect === 2) {
-            (characters[2].health -= 5) && (opponent.health -= 5)
+            (characters[2].health -= 5), (opponent.health -= 5)
         } else {
             break;
         }
